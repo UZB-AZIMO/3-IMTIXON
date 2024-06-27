@@ -1,0 +1,33 @@
+.about{
+    background-color: #014E56;
+    padding: 100px 0;
+    color: white;
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+flex-wrap: wrap;        
+        gap: 50px;
+    }
+    &__title{
+        margin-top: -70px;
+        font-size: 64px;
+        font-weight: bold;
+    }
+    &__text{
+        width: 50%;
+    }
+}
+
+
+
+
+
+@media ( max-width:700px){
+    .about{
+      text-align: center;
+      &__text{
+        width: 100%;
+    }
+    }
+    
+}

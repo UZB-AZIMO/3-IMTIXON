@@ -1,0 +1,53 @@
+.client{
+    background-color: 
+    #012F34;
+    padding: 120px 0;
+    color: white;
+    text-align: center;
+    &__title{
+        font-size: 50px;
+        font-weight: 800;
+    }
+    &__wrapper{
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: space-between;
+        padding: 0 5px;
+    }
+}
+
+
+
+
+@media ( max-width:900px){
+    .client{
+      text-align: center;
+      &__title{
+        font-size: 50px;
+        font-weight: 600;
+    }
+}
+}
+
+
+
+
+
+
+
+@media ( max-width:500px){
+    .client{
+      text-align: center;
+      &__title{
+        font-size: 30px;
+        font-weight: 500;
+    }
+      &__wrapper{
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+    }
+    
+}

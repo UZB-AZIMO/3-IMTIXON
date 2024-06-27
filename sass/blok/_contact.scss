@@ -1,0 +1,85 @@
+.contact{
+    background-color: 
+    #014E56;
+    &__wrapper{
+        padding: 50px 0 100px 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    &__title{
+        font-size: 64px;
+        font-weight: 700;
+        color: white;
+    }
+    &__text{
+        color: #F67E7E;
+        font-size: 32px;
+        font-weight: 700;
+        margin-bottom: 30px;
+        color: white;
+
+    }
+    &__item{
+        margin-top: 15px;
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+
+    }
+    &__btn{
+        font-size: 18px;
+        font-weight: 600;
+        margin-top: 70px;
+        padding: 10px 20px;
+        border-radius: 25px;
+        background-color: white;
+        color: #004047;
+        transition: all;
+        border: none;
+        &:hover{
+            background-color: #79C8C7;
+            color: white;
+        }
+    }
+}
+.contact__card{
+    width: calc(50% - 10px);
+}
+.contact__box{
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+}
+
+input{
+    margin-top: 20px;
+    background-color: #014E56;
+    border: none;
+    font-size: 16px;
+    outline: none;
+    font-weight: 600;
+    padding: 10px 0;
+    color: white;
+}
+
+.contact__btn:active{
+    transform: scale(.9);
+}
+
+
+
+
+
+
+@media ( max-width:990px){
+    .contact{
+&__wrapper{
+    flex-direction: column;
+}
+&__card{
+    width: 100%;
+}
+    }
+    
+}

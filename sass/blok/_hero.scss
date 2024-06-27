@@ -1,0 +1,111 @@
+.hero{
+    background-color: #014E56;
+    padding: 50px 0 100px 0;
+    color: white;
+    justify-content: center;
+    &__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+    &__title{
+        font-size: 94px;
+        font-weight: bold;
+    }
+    .red{
+        color: 
+        #F67E7E;
+    }
+&__text{
+    margin-top: 90px;
+    width: 74%;
+    font-weight: 500;
+}
+    &__card{
+        width: 40%;
+        justify-content: center;
+    }
+}
+
+
+
+@media ( max-width:1240px){
+    .hero{
+        &__title{
+            font-size: 70px;
+            font-weight: bold;
+        }
+        &__text{
+            margin-top: 30px;
+            font-weight: 500;
+        }
+    }
+}
+
+
+
+@media ( max-width:1020px){
+    .hero{
+text-align: center;
+        &__title{
+            font-size: 54px;
+            font-weight: bold;
+        }
+&__wrapper{
+    display: contents;
+    gap: 10px;
+}
+&__card{
+    width: 100%;
+    text-align: center;
+}
+&__text{
+    margin-top: 30px;
+    font-weight: 500;
+    width: 100%;
+    padding:  0 50px;
+}
+    }
+    .cadd{
+        display: none;
+    }
+    
+}
+
+.cadd{
+    margin-top: 40px;
+    width: 50px;
+    height: 5px;
+   background-color: #79C8C7;
+}
+
+
+
+
+
+@media ( max-width:560px){
+    .hero{
+text-align: center;
+padding: 30px 0;
+        &__title{
+            font-size: 32px;
+            font-weight: bold;
+        }
+&__wrapper{
+    display: contents;
+    gap: 10px;
+}
+&__card{
+    width: 100%;
+    text-align: center;
+}
+&__text{
+    margin-top: 10px;
+    font-weight: 500;
+    width: 100%;
+    padding:  0 10px;
+}
+    }
+    
+}

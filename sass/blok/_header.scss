@@ -1,0 +1,125 @@
+  header{
+    background-color: 
+    #014E56;
+    padding: 20px 0;
+  }
+.navbar{
+    margin-top: 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    &__logo{
+        font-size: 32px;
+    }
+    
+    &__collection{
+        display: flex;
+        gap: 40px;
+        align-items: center;
+        margin-left: 40px;
+        flex: 1;
+    }
+    &__item{
+        list-style: none;
+        font-size: 20px;
+        color: white;
+        transition: 1s;
+        &:hover{
+            color:gold;
+            cursor: pointer;
+        }
+    }
+    &__menu{
+        font-size: 20px;
+        display: none;
+        color: white;
+        &:hover{
+            color:gold;
+        }
+    }
+    &__btn{
+        padding: 5px 20px;
+        border: 3px solid white;
+        color: white;
+        font-size: 20px;
+        background-color: 
+        #014E56;
+        transition: .5s;
+        border-radius: 25px;
+        &:hover{
+            background-color: 
+            white;
+color: 
+gold;
+border: 3px solid 
+#014E56;
+
+        }
+      
+    }
+    .navbar__btn:active{
+        transform: scale(.9);
+    }
+}
+
+
+
+
+
+
+
+
+
+@media ( max-width:890px){
+    .navbar__btns{
+display: none;
+    }
+    
+}
+
+
+@media (
+    max-width:755px) {
+    .navbar{
+       display: flex;
+       justify-content: space-between;
+        &__collection{
+            display: none;
+        }
+        
+        &__menu{
+            display: block;
+           &__:hover{
+            color:gold;
+           } 
+        }
+      &__btns{
+        display: none;
+      }
+    }
+}
+
+@media ( max-width:605px){
+    .navbar__btns{
+display: none;
+    }
+    
+}
+
+
+
+
+
+
+@media (max-width:345px) {
+    .navbar{
+        &__logo{
+            font-size: 24px;
+        }
+&__btn{
+    display: none;
+}
+    }
+}
+
+

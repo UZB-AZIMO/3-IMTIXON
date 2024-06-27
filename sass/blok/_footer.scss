@@ -1,0 +1,60 @@
+.footer{
+    color: white;
+    background-color: 
+    #002529;
+    padding: 120px 0 50px 0;
+    &__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+    }
+    &__text{
+        font-size: 20px;
+        font-weight: 600;
+    }
+}
+.footer__body{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.one{
+    flex: 1;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.icon{
+    border-radius: 10px;
+}
+
+
+
+
+
+@media ( max-width:700px){
+    .footer{
+      text-align: center;
+    }
+    .one{
+    flex:none;
+}
+.footer__wrapper{
+    margin: auto;
+    flex-direction: column;
+}
+.footer__card{
+    margin: auto;
+}
+.icons{
+    margin: auto;
+}
+.footer__body{
+    margin: auto;
+}
+}
