@@ -14,7 +14,7 @@
         <div class="container">
             <nav class="navbar">
                 <img src="./assets/navbar logo.svg" alt="logo">
-                <ul class="navbar__collection">
+                <ul class="navbar__collection"id="navbar__collection">
                     <li class="navbar__item">
                         <a  href="./index.html" class="navbar__link">
                             <span> Home </span>
@@ -31,9 +31,9 @@
 <div class="navbar__btns">
     <a href="./contact.html"><button class="navbar__btn">contact us</button></a>
 </div>
-                <div class="navbar__menu">
-                    <i class="fa-solid fa-bars"></i>
-                </div>
+<div onclick="toggleShow()" class="navbar__menu ">
+    <i class="fa-solid fa-bars"></i>
+</div>
             </nav>
         </div>
     </header>
@@ -193,5 +193,7 @@
         </div>
     </footer>
     <!-- footer end -->
+    <script src="./app.js"></script>
+
 </body>
 </html>

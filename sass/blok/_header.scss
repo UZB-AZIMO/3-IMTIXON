@@ -29,6 +29,9 @@
             cursor: pointer;
         }
     }
+    .show{
+        left: 0;
+    }
     &__menu{
         font-size: 20px;
         display: none;
@@ -83,10 +86,20 @@ display: none;
     .navbar{
        display: flex;
        justify-content: space-between;
-        &__collection{
-            display: none;
-        }
-        
+       &__collection{
+           position: fixed;
+           top: 0;
+           left: -350px;
+           width: 300px;
+           background: #2C6269;
+           color: #000;
+           height: 100vh;
+           flex-direction: column;
+           padding: 30px;
+           transition: .5s;
+           z-index: 11;
+       }
+       
         &__menu{
             display: block;
            &__:hover{
