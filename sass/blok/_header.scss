@@ -89,14 +89,14 @@ display: none;
        &__collection{
            position: fixed;
            top: 0;
-           left: -350px;
-           width: 300px;
+           left: -300px;
+           width: 230px;
            background: #2C6269;
            color: #000;
            height: 100vh;
            flex-direction: column;
-           padding: 30px;
-           transition: .5s;
+           padding: 20px;
+           transition: .9s;
            z-index: 11;
        }
        
